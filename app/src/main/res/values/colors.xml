@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="button">#2b637b</color>
+    <color name="blue_500">#2196F3</color> <!-- Warna biru -->
+    <color name="green_500">#4CAF50</color> <!-- Warna hijau -->
+    <color name="yellow">#FFEB3B</color>  <!-- Warna kuning (untuk tombol) -->
+</resources>

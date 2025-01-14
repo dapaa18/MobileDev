@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkButton"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/bgbutton"
+        android:backgroundTint="@color/button"
+        android:text="CHECK"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/nextButton"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/bgbutton"
+        android:backgroundTint="@color/button"
+        android:fontFamily="@font/poppins_bold"
+        android:text="NEXT"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.764" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.206"
+        app:srcCompat="@drawable/profil" />
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="372dp"
+        android:background="@drawable/bg_input"
+        android:hint="Name"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="textPersonName"
+        android:paddingLeft="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/EditText2"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="304dp"
+        android:background="@drawable/bg_input"
+        android:hint="Palindrome"
+        android:textSize="15dp"
+        android:fontFamily="@font/poppins_regular"
+        android:inputType="text"
+        android:paddingLeft="13dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
